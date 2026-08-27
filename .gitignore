@@ -1,0 +1,48 @@
+# Chromium
+chromium/
+src/
+out/
+
+# Build output
+build/output/
+artifacts/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Credentials
+*.pem
+*.key
+*.p12
+credentials.json
+
+# Generated files
+*.ninja
+*.ninja_deps
+*.ninja_log
